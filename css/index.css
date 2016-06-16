@@ -12,6 +12,10 @@ li {
   width:90px;
   padding: 10px;
   margin-bottom: 20px;
+}
+li:hover {
+  color: #00CCFF;
+  border-color: #00CCFF;
 
 }
 
@@ -25,35 +29,54 @@ li {
 
 } 
 
+article-featured {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  height: 500px;
+}
+
+article-item {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 20%;
+  height: 350px;
+  border: 1px black solid;
+  padding: 30px;
+}
+
+
 .contactbox {
+  text-align: center;
+  margin: 30px;
   background-color: lightgrey;
 
 }
 
 .contacttop {
-  color: black;
+  margin-bottom: 8px;
   text-align: center;
   font-family: 'Muli', sans-serif;
-  margin-bottom: 8px;
+  color: black;
 
 }
 
 .contactsecond {
-  color: black;
+  margin-top: 8px;
   text-align: center;
   font-family: 'Muli', sans-serif;
-  margin-top: 8px;
+  color: black;
+
 }
 
 .contactinput {
-  width: 35%;
-  height: 50%;
-  text-align: left;
-  border-bottom-style: solid 20px black;
-  margin-bottom: 20px;
-
+  box-sizing: border-box;
+  margin: 15px; 
+  line-height: 50px;
+  font-size: 16px;
   background-color:lightgrey;
-
+  border:medium none;
+  border-bottom: 3px black solid;
 
 }
 
