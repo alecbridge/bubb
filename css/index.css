@@ -29,20 +29,31 @@ li:hover {
 
 } 
 
-article-featured {
-  display: block;
+.features {
+  display: inline-block;
   margin: 0 auto;
   width: 90%;
-  height: 500px;
+  height: 400px;
 }
 
-article-item {
+.feature-item {
+  position: relative;
+  float: left;
   box-sizing: border-box;
   display: inline-block;
   width: 20%;
-  height: 350px;
+  height: 380px;
   border: 1px black solid;
-  padding: 30px;
+  padding: 10px;
+}
+
+.feature-head {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.feature-body {
+  font-family: 'Hind', sans-serif;
+  font-size: 15px;
 }
 
 
