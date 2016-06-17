@@ -112,6 +112,45 @@ li:hover {
   font-size: 15px;
 }
 
+#customers-section {
+  height: 500px;
+}
+
+
+.cust-h1 {
+  font-size: 45px;
+  font-color: black;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: -2px;
+  text-align:center;
+  padding-top: 25px;
+
+}
+
+.cust-sub {
+  font-size: 15px;
+  font-color: lightgrey;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+}
+
+.customer-list {
+  text-align: center;
+
+}
+
+.cust-google{
+  display: inline-block;
+  height: 120px;
+  width: 220px;
+}
+
+.cust-microsoft{
+  display: inline-block;
+  height: 120px;
+  width: 220px;
+}
+
 
 .contactbox {
   text-align: center;
@@ -123,7 +162,9 @@ li:hover {
 .contacttop {
   margin-bottom: 8px;
   text-align: center;
+  font-size: 45px;
   font-family: 'Muli', sans-serif;
+  letter-spacing: -1px;
   color: black;
 
 }
@@ -131,6 +172,7 @@ li:hover {
 .contactsecond {
   margin-top: 8px;
   text-align: center;
+  font-size: 15px;
   font-family: 'Muli', sans-serif;
   color: black;
 
